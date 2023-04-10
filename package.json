@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "dev": "node server.js",
+    "format-code": "prettier --check --write \"public/**\"",
+    "lint-styles": "stylelint \"public/styles/**/*.css\"",
+    "lint-scripts": "eslint \"public/scripts/**/*.js\""
+  },
+  "devDependencies": {
+    "eslint": "^8.37.0",
+    "live-server": "^1.1.0",
+    "prettier": "^2.8.7",
+    "stylelint": "^15.4.0",
+    "stylelint-config-standard": "^32.0.0"
+  },
+  "dependencies": {
+    "eslint-config-prettier": "^8.8.0"
+  }
+}
