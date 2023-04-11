@@ -1,0 +1,23 @@
+:root {
+    /*Палитра цветов*/
+    --color-text-main-strong: #000000;
+    --color-text-main-weak: #FFFFFF;
+    --color-text-secondary: #7D7E80;
+    --color-text-additional: #959CAD;
+    --color-base-strong: #262728;
+    --color-base-weak: #FAFBFC;
+    --color-accent-strong: #3DA2FF;
+    --color-accent-weak: #DAD3FF;
+    --color-complement-strong: #96139E;
+    --color-complement-weak: #E4C2E7;
+    --color-critic-strong: #C12A3C;
+    --color-critic-weak: #FFD3D7;
+    --color-warning-strong: #F7A715;
+    --color-warning-weak: #FFEBB7;
+    --color-success-strong: #1ABF70;
+    --color-success-weak: #D3FFEA;
+    --color-rating-star: #FFC700;
+    --color-action-primary: #F1E846;
+    --color-form-border: #C7CCD4;
+    --color-divider: #EBF0F5;
+}
