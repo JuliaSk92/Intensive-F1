@@ -1,8 +1,52 @@
 @font-face {
-    font-family: 'PT Serif';
-    src: url('subset-PTSerif-Italic.woff2') format('woff2'),
-        url('subset-PTSerif-Italic.woff') format('woff');
-    font-weight: normal;
-    font-style: italic;
-    font-display: swap;
+	font-family: "PT Serif";
+	src: url("subset-PTSerif-Italic.woff2") format("woff2"),
+		url("subset-PTSerif-Italic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "Product Sans";
+	src: url("subset-ProductSans-Italic.woff2") format("woff2"),
+		url("subset-ProductSans-Italic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Product Sans";
+	src: url("subset-ProductSans-Regular.woff2") format("woff2"),
+		url("subset-ProductSans-Regular.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Product Sans";
+	src: url("subset-ProductSans-Bold.woff2") format("woff2"),
+		url("subset-ProductSans-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Product Sans";
+	src: url("subset-ProductSans-Black.woff2") format("woff2"),
+		url("subset-ProductSans-Black.woff") format("woff");
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Product Sans";
+	src: url("subset-ProductSans-Medium.woff2") format("woff2"),
+		url("subset-ProductSans-Medium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
 }

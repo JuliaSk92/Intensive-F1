@@ -42,94 +42,94 @@
 }
 
 body {
-    color: var(--color-text-main-strong);
+	color: var(--color-text-main-strong);
 }
 
 /* Типография */
 
 .typography-h1 {
-    font-family: 'Google Sans', sans-serif;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 48px;
+	font-family: "Google Sans", sans-serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 48px;
 }
 
 .typography-h2 {
-    font-family: 'Google Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 40px;
+	font-family: "Google Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 40px;
 }
 
 .typography-h3 {
-    font-family: 'Google Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 30px;
+	font-family: "Google Sans", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 30px;
 }
 
 .typography-h4 {
-    font-family: 'Google Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
+	font-family: "Google Sans", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
 }
 
 .typography-decor {
-    font-family: 'PT Serif', serif;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 40px;
+	font-family: "PT Serif", serif;
+	font-style: italic;
+	font-weight: 400;
+	font-size: 36px;
+	line-height: 40px;
 }
 
 .typography-base {
-    font-family: 'Google Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 20px;
+	font-family: "Google Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 20px;
 }
 
 .typography-small {
-    font-family: 'Google Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 16px;
+	font-family: "Google Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 16px;
 }
 
 .typography-large {
-    font-family: 'Google Sans', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 32px;
+	font-family: "Google Sans", sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 32px;
 }
 
 .typography-remark {
-    font-family: 'Google Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 10px;
-    line-height: 16px;
+	font-family: "Google Sans", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+	line-height: 16px;
 }
 
 .typography-label {
-    font-family: 'Google Sans', sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+	font-family: "Google Sans", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
 }
 
 .typography-label2 {
-    font-family: 'Google Sans', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 24px;
+	font-family: "Google Sans", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
 }
