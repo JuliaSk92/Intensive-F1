@@ -1,23 +1,135 @@
 :root {
-    /*Палитра цветов*/
-    --color-text-main-strong: #000000;
-    --color-text-main-weak: #FFFFFF;
-    --color-text-secondary: #7D7E80;
-    --color-text-additional: #959CAD;
-    --color-base-strong: #262728;
-    --color-base-weak: #FAFBFC;
-    --color-accent-strong: #3DA2FF;
-    --color-accent-weak: #DAD3FF;
-    --color-complement-strong: #96139E;
-    --color-complement-weak: #E4C2E7;
-    --color-critic-strong: #C12A3C;
-    --color-critic-weak: #FFD3D7;
-    --color-warning-strong: #F7A715;
-    --color-warning-weak: #FFEBB7;
-    --color-success-strong: #1ABF70;
-    --color-success-weak: #D3FFEA;
-    --color-rating-star: #FFC700;
-    --color-action-primary: #F1E846;
-    --color-form-border: #C7CCD4;
-    --color-divider: #EBF0F5;
+	/* Палитра цветов */
+	--color-text-main-strong: #000;
+	--color-text-main-weak: #fff;
+	--color-text-secondary: #7d7e80;
+	--color-text-additional: #959cad;
+	--color-base-strong: #262728;
+	--color-base-weak: #fafbfc;
+	--color-accent-strong: #3da2ff;
+	--color-accent-weak: #dad3ff;
+	--color-complement-strong: #96139e;
+	--color-complement-weak: #e4c2e7;
+	--color-critic-strong: #c12a3c;
+	--color-critic-weak: #ffd3d7;
+	--color-warning-strong: #f7a715;
+	--color-warning-weak: #ffebb7;
+	--color-success-strong: #1abf70;
+	--color-success-weak: #d3ffea;
+	--color-rating-star: #ffc700;
+	--color-action-primary: #f1e846;
+	--color-form-border: #c7ccd4;
+	--color-divider: #ebf0f5;
+
+	/* Тень блоков */
+	--shadow-inset-1: inset 0px 1px 2px 1px rgb(38 39 40 / 20%);
+	--shadow-1: 0px 0px 1px rgb(38 39 40 / 10%), 0px 1px 2px rgb(38 39 40 / 10%);
+	--shadow-2: 0px 3px 8px rgb(38 39 40 / 3%), 0px 1.5px 3px rgb(38 39 40 / 4%),
+		0px 0.5px 1px rgb(38 39 40 / 10%);
+	--shadow-3: 0px 6px 16px rgb(38 39 40 / 4%), 0px 3px 5px rgb(38 39 40 / 4%),
+		0px 1.5px 2px rgb(38 39 40 / 3.08%),
+		0px 0.5px 0.8px rgb(38 39 40 / 2.09%);
+	--shadow-4: 0px 4px 16px rgb(38 39 40 / 6%), 0px 3px 5px rgb(38 39 40 / 5%),
+		0px 1.5px 3.5px rgb(38 39 40 / 5%), 0px 0.8px 2px rgb(38 39 40 / 4%),
+		0px 0.3px 1px rgb(38 39 40 / 3%);
+	--shadow-5: 0px 8px 20px rgb(38 39 40 / 10%), 0px 4px 9px rgb(38 39 40 / 8%),
+		0px 2px 5px rgb(38 39 40 / 5.96%), 0px 1px 3px rgb(38 39 40 / 5%),
+		0px 0.5985px 1.5px rgb(38 39 40 / 4.04%),
+		0px 0.2491px 1px rgb(38 39 40 / 3%);
+	--shadow-6: 0px -1px 1px rgb(0 0 0 / 5%), 0px 2px 2px rgb(0 0 0 / 5%),
+		0px 4px 4px rgb(0 0 0 / 5%), 0px 8px 8px rgb(0 0 0 / 5%),
+		0px 16px 16px rgb(0 0 0 / 5%), 0px 32px 32px rgb(0 0 0 / 5%);
+}
+
+body {
+    color: var(--color-text-main-strong);
+}
+
+/* Типография */
+
+.typography-h1 {
+    font-family: 'Google Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.typography-h2 {
+    font-family: 'Google Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.typography-h3 {
+    font-family: 'Google Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.typography-h4 {
+    font-family: 'Google Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.typography-decor {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+}
+
+.typography-base {
+    font-family: 'Google Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.typography-small {
+    font-family: 'Google Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.typography-large {
+    font-family: 'Google Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.typography-remark {
+    font-family: 'Google Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 16px;
+}
+
+.typography-label {
+    font-family: 'Google Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.typography-label2 {
+    font-family: 'Google Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
 }
