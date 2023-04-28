@@ -1,3 +1,4 @@
 .gitkeep
 *.woff
 *.woff2
+public/scripts/vendor/*.js

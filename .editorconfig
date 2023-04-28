@@ -17,3 +17,4 @@ insert_final_newline = true
 [{package.json,package-lock.json}]
 indent_style = space
 indent_size = 2
+
