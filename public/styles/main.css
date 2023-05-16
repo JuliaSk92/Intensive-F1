@@ -276,25 +276,36 @@ button {
 	background: var(--color-action-primary-active-bg);
 }
 
-/* footer. columns */
+/* Footer .footer. columns */
 
 .footer-columns {
 	display: flex;
+	gap: 20px;
 }
 
-.footer-nav__element a {
-	color: var(--color-text-additional);
+.footer-colums__col {
+	flex-basis: 33.33%;
+	flex-grow: 1;
 }
 
-.footer-nav__element a:not(:hover) {
+/* Footer .footer-nav */
+
+.footer-nav__link {
+	display: inline-flex;
+	justify-content: flex-start;
+	align-items: safe center;
+}
+
+.footer-nav__link:not(:hover) {
 	text-decoration: none;
+	color: inherit;
 }
 
-.footer-nav__element a:hover {
+.footer-nav__link:hover {
 	color: var(--color-text-link-hover);
 }
 
-.footer-nav__element a:active {
+.footer-nav__link:active {
 	color: var(--color-text-link-active);
 }
 
@@ -302,25 +313,64 @@ button {
 	margin-top: 30px;
 }
 
-.footer-nav__element--accent-item {
-	vertical-align: middle;
-	margin-right: 8px;
+.footer-nav__icon {
+	width: 20px;
+	height: 20px;
+	margin-right: 9px;
+	fill: currentColor;
 }
 
-.site-developer__item {
-	margin-left: 10px;
+.footer-nav--small-text {
+	font-size: 12px;
+	line-height: 16px;
 }
 
-/* footer payments */
-
-.footer-payments {
-	display: flex;
-}
-
-.footer__column--right {
-	display: flex;
-}
+/* Footer .subscribe-form */
 
 .copyright__item {
 	font-family: sans-serif;
+}
+
+/* Footer .footer-info */
+
+.footer-info {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	
+}
+
+/* Footer .footer payments */
+
+.footer-payments {
+	display: flex;
+	align-items: center;
+	gap: 27px;
+}
+
+.footer-payments__description {
+	margin-left: 42px;
+}
+
+/* Footer .site-developer */
+
+.site-developer {
+	display: inline-flex;
+	align-items: center;
+	gap: 16px;
+	margin-left: 144px;
+}
+	
+
+.site-developer:not(:hover) {
+	text-decoration: none;
+	color: inherit;
+}
+
+.site-developer:hover {
+	color: var(--color-text-link-hover);
+}
+
+.site-developer:active {
+	color: var(--color-text-link-active);
 }
