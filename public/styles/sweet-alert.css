@@ -1,0 +1,36 @@
+.swal2-container .swal2-popup {
+	padding: 50px 20px;
+}
+
+.swal2-popup .swal2-title {
+	padding: 0;
+	font-family: "Google Sans", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 24px;
+	text-transform: uppercase;
+	color: var(--color-text-main-strong);
+	text-align: left;
+	margin-bottom: 16px;
+}
+
+.swal2-popup .swal2-html-container {
+	text-align: left;
+	margin: 0;
+	padding: 0;
+}
+
+.swal2-popup .swal-message {
+	margin: 0;
+}
+
+.swal2-popup .swal2-close {
+	font-size: 2em;
+	width: 1em;
+	height: 1em;
+}
+
+.swal-message--error {
+	color: var(--color-critic-strong);
+}

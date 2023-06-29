@@ -223,6 +223,21 @@ button {
 
 .subscribe-form {
 	margin-top: 12px;
+}
+
+.subscribe-form__group {
+	margin: 0;
+	padding: 0;
+	border-width: 0;
+	max-inline-size: unset;
+}
+
+.subscribe-form__group:disabled {
+	opacity: 0.5;
+	pointer-events: none;
+}
+
+.subscribe-form__row {
 	display: flex;
 	justify-content: flex-start;
 }
@@ -258,6 +273,7 @@ button {
 	border-width: 0;
 	border-radius: 4px;
 	background: var(--color-action-primary);
+	color: var(--color-text-main-strong);
 	margin-left: -2px;
 	cursor: pointer;
 	letter-spacing: 0.05em;
@@ -274,6 +290,15 @@ button {
 
 .subscribe-form__submit:active {
 	background: var(--color-action-primary-active-bg);
+}
+
+.subscribe-form__error {
+	margin-top: 3px;
+	color: red;
+}
+
+.subscribe-form__error:empty {
+	display: none;
 }
 
 /* Footer .footer. columns */
@@ -337,7 +362,6 @@ button {
 	display: flex;
 	align-items: flex-start;
 	justify-content: space-between;
-	
 }
 
 /* Footer .footer payments */
@@ -360,7 +384,6 @@ button {
 	gap: 16px;
 	margin-left: 144px;
 }
-	
 
 .site-developer:not(:hover) {
 	text-decoration: none;

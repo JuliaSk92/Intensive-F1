@@ -5,13 +5,13 @@
 		<meta charset="utf-8" />
 		<link rel="stylesheet" href="/static/fonts/fonts.css" />
 		<link rel="stylesheet" href="/styles/main.css" />
+		<link rel="stylesheet" href="/styles/sweet-alert.css" />
 		<script src="/scripts/index.js"></script>
 	</head>
 
 	<body class="typography typography--base">
 		<div class="widget">
-			<div class="container">
-			</div>
+			<div class="container"></div>
 		</div>
 
 		<footer class="widget widget--footer">
@@ -37,21 +37,33 @@
 									class="subscribe-form"
 									id="subscribe-form"
 								>
-									<input
-										class="subscribe-form__email"
-										type="email"
-										placeholder="Мій e-mail"
-									/>
+									<fieldset class="subscribe-form__group">
+										<div class="subscribe-form__row">
+											<input
+												required
+												class="subscribe-form__email"
+												type="email"
+												placeholder="Мій e-mail"
+												name="email"
+												data-pristine-required-message="Це поле обов'язкове"
+												data-pristine-email-message="Вкажіть коректну адресу електронної пошти"
+											/>
+											<button
+												class="subscribe-form__submit"
+												type="submit"
+											>
+												Підписатись
+											</button>
+										</div>
 
-									<button
-										class="subscribe-form__submit"
-										type="submit"
-									>
-										Підписатись
-									</button>
+										<div
+											class="subscribe-form__error"
+										></div>
+									</fieldset>
 								</form>
 							</div>
 						</div>
+
 						<div class="footer-contacts">
 							<div class="footer-contacts__line">
 								<p class="typography typography--h4">
@@ -419,6 +431,7 @@
 			</div>
 		</footer>
 		<script src="/scripts/vendor/pristine.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 		<script src="scripts/subscribe.js"></script>
 	</body>
 </html>
